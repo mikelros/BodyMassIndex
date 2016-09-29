@@ -7,12 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
     tools:context="es.mbi.mikel.mbi.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/imageView"
-        android:src="@drawable/bmi" />
+        android:id="@+id/presentationImage"
+        android:src="@drawable/bmi"
+        android:onClick="openMenu"
         android:layout_gravity="center" />
 </FrameLayout>
